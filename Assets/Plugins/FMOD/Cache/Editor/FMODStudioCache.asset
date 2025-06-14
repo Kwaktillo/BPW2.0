@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8477040763504825447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../Documents/GitHub/Vrij1/Assets/AUDIO/BPW2/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638771357222949586
-  FileSizes:
-  - Name: Desktop
-    Value: 814
-  Exists: 1
 --- !u!114 &-7383587834216144923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +19,7 @@ MonoBehaviour:
     Data3: 1719332284
     Data4: 389335157
   Banks:
-  - {fileID: 7941246300514278068}
+  - {fileID: 5235793244053104765}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -60,18 +40,38 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8477040763504825447}
-  - {fileID: 7941246300514278068}
+  - {fileID: 290575093841474332}
+  - {fileID: 5235793244053104765}
   EditorEvents:
   - {fileID: -7383587834216144923}
   - {fileID: 3221247895700718411}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 7941246300514278068}
+  - {fileID: 5235793244053104765}
   StringsBanks:
-  - {fileID: -8477040763504825447}
-  cacheTime: 638771357222949586
+  - {fileID: 290575093841474332}
+  cacheTime: 638855374464715123
   cacheVersion: 131622
+--- !u!114 &290575093841474332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638855374464715123
+  FileSizes:
+  - Name: Desktop
+    Value: 814
+  Exists: 1
 --- !u!114 &3221247895700718411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
     Data3: 1678435465
     Data4: -1686823136
   Banks:
-  - {fileID: 7941246300514278068}
+  - {fileID: 5235793244053104765}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 153782
---- !u!114 &7941246300514278068
+--- !u!114 &5235793244053104765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,10 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../Documents/GitHub/Vrij1/Assets/AUDIO/BPW2/Build/Desktop/Master.bank
+  Path: Assets/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638771357222923397
+  lastModified: 638855374464689746
   FileSizes:
   - Name: Desktop
     Value: 7786752
